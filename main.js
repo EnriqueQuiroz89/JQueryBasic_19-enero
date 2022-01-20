@@ -18,7 +18,7 @@ $(document).ready(function () {
         $("h1").removeClass("red");
     });
 
-    /** ANULA LAS CLASES QUE TENGA EL ELEMENTO */
+    /** MANTIENE LA CLASE HASTA QUE SE DESHABILITA CON EL MISMO BOTON */
     /** Agrega la clase ROSA a los encabezados */
     $("#btn-agrega-clase-pink").click(function () {
         $("h1").toggleClass("pink");
